@@ -20,4 +20,7 @@ describe("", () => {
   it("deberia devolver 2", ()=>{
     expect(ocurrencia("HOLA MUNDO HOLA")).toEqual(2);
   });
+  it("deberia devolver 2", ()=>{
+    expect(ocurrencia("HOLA MUNDO hola")).toEqual(2);
+  });
 });
