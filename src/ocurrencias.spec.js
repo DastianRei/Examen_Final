@@ -8,4 +8,7 @@ describe("", () => {
   it("deberia devolver 1", ()=>{
     expect(ocurrencia("TU")).toEqual(1);
   });
+  it("deberia devolver 1", ()=>{
+    expect(ocurrencia("HOLA ")).toEqual(1);
+  });
 });
