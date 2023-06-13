@@ -11,4 +11,7 @@ describe("", () => {
   it("deberia devolver 1", ()=>{
     expect(ocurrencia("HOLA ")).toEqual(1);
   });
+  it("deberia devolver 2", ()=>{
+    expect(ocurrencia("HOLA HOLA")).toEqual(2);
+  });
 });
