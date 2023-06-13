@@ -5,7 +5,7 @@ function ocurrencia(cadena){
 
     var array =[];
     console.log(arrayCadena);
-    if(arrayCadena.length <= 2){
+    if(arrayCadena.length < 2){
         return 1;
     }
     else{
